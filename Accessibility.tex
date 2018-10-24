@@ -1,0 +1,70 @@
+\documentclass[a4paper, 12 pt]{article}   	% use "amsart" instead of "article" for AMSLaTeX format
+\usepackage{setspace}
+\usepackage[left=4.5cm,right=2cm,top=2.5cm,bottom=2.5cm]{geometry}                		% See geometry.pdf to learn the layout options. There are lots.
+\geometry{letterpaper}                   		% ... or a4paper or a5paper or ... 
+%\geometry{landscape}                		% Activate for rotated page geometry
+%\usepackage[parfill]{parskip}    		% Activate to begin paragraphs with an empty line rather than an indent
+\usepackage{url}
+\usepackage{amsmath}
+\usepackage{hyperref}
+\usepackage{graphicx}	
+\usepackage{float}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{cite}
+\usepackage{apacite}
+\usepackage{natbib}
+\linespread{1.4}	
+\usepackage{amssymb}
+\graphicspath{{images/}}
+%SetFonts
+
+%SetFonts
+\setlength{\parindent}{0pt}
+
+\title{Accessibility of labour}
+%\date{}							% Activate to display a given date or no date
+
+\begin{document}
+\begin{titlepage} % Kansi
+\begin{center}	
+	\vspace*{\fill}
+   	
+	{\Huge\bfseries Accessibility of labour}
+	\end{center}
+	
+	\vfill
+	\raggedleft
+	{\Large Pentti Kalevi Jämsä}\\
+	\vspace{1.5mm}
+	\raggedleft
+	{\Large University of Helsinki}\\
+	\vspace{1.5mm}
+	{\Large Department of Political and Economic Studies}\\
+	\vspace{1.5mm}
+	{\Large Economics}\\
+	\vspace{1.5mm}
+	{\Large Master's Thesis, first essay}\\
+\vspace{1.5mm}
+	{\Large \today}
+	
+\end{titlepage}
+
+\tableofcontents
+\newpage
+\input{Intro}
+\include{Literature}
+\include{Methods}
+\include{Results}
+
+\nocite{geurs, melo, laakso, venables2007, venables2017, andersson, mackie, marshall, pilegaard, small, liikenne, goebel, brueckner, alonso, mills, muth, mcmillen, fujita, hsl, rosenthal, evers, van, guti}
+
+
+\addcontentsline{toc}{section}{References}
+\bibliographystyle{apacite}
+\bibliography{bib}
+
+
+\end{document}  

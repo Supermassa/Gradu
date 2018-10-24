@@ -1,0 +1,74 @@
+This is BibTeX, Version 0.99d (TeX Live 2017)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: Acessibility.aux
+A level-1 auxiliary file: Lit.aux
+A level-1 auxiliary file: Meth.aux
+A level-1 auxiliary file: Results.aux
+The style file: apacite.bst
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=20001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: bib.bib
+I was expecting a `,' or a `}'---line 254 of file bib.bib
+ :   
+ :   title={The broader economic consequences of transport infrastructure investments},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+apacite.bst [2013/07/21 v6.03 APA bibliography style]
+Warning--No journal in lakshman
+Warning--`others' not consistent with 6th ed. of the APA Manual
+Warning--`others' not consistent with 6th ed. of the APA Manual
+Warning--No address in andersson
+Warning--No journal in evers
+Warning--No address in goebel
+Warning--`others' not consistent with 6th ed. of the APA Manual
+Warning--No journal in muth
+Warning--`others' not consistent with 6th ed. of the APA Manual
+You've used 29 entries,
+            6951 wiz_defined-function locations,
+            1429 strings with 15017 characters,
+and the built_in function-call counts, 50920 in all, are:
+= -- 6274
+> -- 398
+< -- 2444
++ -- 2432
+- -- 66
+* -- 3218
+:= -- 9429
+add.period$ -- 116
+call.type$ -- 29
+change.case$ -- 477
+chr.to.int$ -- 0
+cite$ -- 65
+duplicate$ -- 1284
+empty$ -- 2088
+format.name$ -- 643
+if$ -- 9752
+int.to.chr$ -- 0
+int.to.str$ -- 87
+missing$ -- 0
+newline$ -- 696
+num.names$ -- 224
+pop$ -- 1005
+preamble$ -- 1
+purify$ -- 113
+quote$ -- 0
+skip$ -- 3242
+stack$ -- 0
+substring$ -- 2628
+swap$ -- 732
+text.length$ -- 67
+text.prefix$ -- 0
+top$ -- 1
+type$ -- 2338
+warning$ -- 9
+while$ -- 218
+width$ -- 0
+write$ -- 844
+(There was 1 error message)

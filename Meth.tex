@@ -1,0 +1,95 @@
+\section{Methods and Data}
+
+The methods include a couple of different variations about how the accessibility of labour should be addressed. The alternatives are the effective density measurement, transport elasticity or logit choice models. Most feasible is the logit choice model and the logsum as a measure of consumer surplus. I'll go through these different alternatives briefly in the next section. Then I'll continue deeper to logsum and logit choice models.
+
+\subsection{Different methods used in project evaluation}
+
+One method would be the effective density measurement, which measures the commute by generalising the different travel time costs \citep{venables2017}. 
+
+\begin{equation}
+ATEM_i = \sum_j f(d_{ij})Emp_j
+\end{equation}
+
+The equation says that location $i$'s access to economic mass $ATEM_i$, is the sum of employment in all districts $j$. This is weighted by some decreasing function $f$ of their economic distance to $i$, $d_{ij}$. All this means that if a place is near to other places with high employment, it will have high $ATEM$ \citep{venables2017}.  
+
+\begin{equation}
+Productivity_i = F(\sum_j f(d_{ij})Emp_j)
+\end{equation}
+
+Second step is to link the locations access to economic mass to its productivity with the relationship stated above. There is substantial econometric literature to quantify this relationship and find functions $F$ and $f$. Economic distance can be measured in different ways (distance, travel time, or generalised costs) and economic activity is usually measured through employment or other activity measures \citep{venables2017}.\\
+
+The effective density method is used mostly on productivity and proximity estimation. The link between productivity and density is quite well established in the econometric literature. One survey of literature finds that "doubling the size of the city will increase productivity by an amount that ranges roughly from 3-8 $\%$." \citep[p. 2133]{rosenthal}.   The effective density can be used also to measure different variables of economic activity. Thus the effective density could be modified to measure the effects of transport investment in employment. \\
+
+Other method is the transport output elasticity following the equations presented by \citep{melo}.
+
+\begin{equation}
+Y_{it} = g(Z_{it}, T_{it}) f(X_{it})
+\end{equation}
+
+In the equation $Y_{it}$ is the private output of area i at time t, $f(X_{it})$ is the production technology using input factors, typically labour $(L_{it})$ and capital $(K_{it})$. Transport infrastructure is introduced as direct input factors or as usual by a Hicks-neutral technical term, which is captured in the term $g(Z_{it}, T_{it})$. Term $Z_{it}$ is a function of external environment factor and $T_{it}$ is the term of transport infrastructure. The most common functional form follows the Cobb-Douglas specification stated below \citep{melo}.
+
+\begin{equation}
+\ln Y_{it} = \beta_L \ln L_{it} + \beta_K \ln K_{it} + \sum_z \beta_Z \ln Z_{z, it} + \beta_T \ln T_{it}
+\end{equation}
+
+After the logarithms have been taken, $\beta_T$ represents the elasticity of output with respect to transport capital and is obtained as a partial derivative of $\ln Y_{it}$ with respect to $\ln T_{it}$ \citep{melo}. In this meta-study \citep{melo} the mean estimate of elasticity across several hundred studies is around 0,03, although there is considerable variation according to sector, country and technique employed by researchers.\\
+
+ \subsection{Consumer surplus, logsum and project evaluation}
+ 
+Also the evaluating of the data could be done in a rule of a half (RoH) principle, this evaluates the change in user benefits as the sum of the full benefit to original travellers and half the benefit obtained by new travellers \citep{geurs}. RoH principle is used more when we measure the consumer surplus, so it is not the best measurement to use, when we want to model wider economic impacts. In the measurement of wider economic impacts, the logsum approach might be better from \cite{geurs} the logsum is defined as the intergral with respect to the utility of an alternative. It provides exact measure of transport benefits, assuming the marginal value of money is constant \citep{geurs}. \\
+
+Logsum can be based on consumer surplus or as a logit choice probability, both of these will be derived in this section. Logsum is a more robust way to model the transportation and choices. Logsum can be seen as a more common framework that cover more factors of mode and destination choices. These choices are different travel time and cost components, service quality and person and household attributes \citep{logsum}. \\
+
+In this section I go a little deeper on the aspects of the logsum as a method of formulating the logit choice probabilities and also as an interpretation of consumer benefits. In the literature review, the logsum was addressed as an indicator of value of time (VoT). As a method the logsum is seen as a mode and destination coefficient, which is then used in the data estimation later. \\
+
+Following \citep{logsum} I give a short overview of the logsum in this section. The logsum can be seen as a mathematical accessibility measure of the whole transport system. For further review and more in depth overlook to discrete choice analysis can be found from the appendix, following the textbook of \citep{train}.
+
+Utility of a decision maker \textit{n} from alternative \textit{j} is divided in an observed and unobserved component \citep{logsum}.
+
+\begin{equation}
+U_nj = V_nj + \varepsilon_nj
+\end{equation}
+
+$U_nj$ is the utility of the decision maker \textit{n} from alternative \textit{j} ( \textit{n} = 1,..N ; J = 1,..J) \\
+$V_nj$ = "observed utility" \\
+$\varepsilon_nj$ = unobservable factors that affect utility \citep{logsum}. \\
+
+In standard multinomial logit (MNL) model, with $\varepsilon_nj$ i.i.d extreme value with standard variance ($\pi^2/6$) the choice probabilities are given by:
+
+\begin{equation}
+P_{ni} = \frac{e^{V_nj}}{\sum e^{V_nj}}
+\end{equation}
+
+The denominator of the logit choice probability gives the logsum. The logsum gives the expected utility of choices for example the mode and destination choices that are most interesting for transport purposes \citep{logsum}. In project evaluation logsum is used as an interpretation of consumer surplus. \\
+
+In the field of policy analysis the person's consumer surplus is the utility in monetary terms that a person receives in a choice situation, also including disutility of travel time and cost. Provided that the utility is linear in income, the consumer surplus is the maximum utility received by the decision maker \textit{n} from the best alternative\citep{logsum}. 
+\begin{equation}
+CS_n = (1/\alpha_n) U_n = (1/\alpha_n) max_j (U_nj \forall j)
+\end{equation}
+
+$\alpha_n$ is the marginal utility of income and equal to \textit{d}$U_nj$/\textit{d}$Y_nj$ if j is chosen. $Y_n$ is the income of the person n and $U_n$ the overall utility of a person n. The division $1/\alpha_n$ translates utility into monetary terms. \\
+
+If the model is a standard multinomial logit model (MNL) and utility is linear in income, which means that $\alpha_n$ is constant with respect to income. From this we get the expected consumer surplus \citep{logsum}. Expected consumer surplus in standard logit model is simply the logsum.
+\begin{equation}
+E(CS_n)= (1/\alpha_n)\ln(\sum_{j=1}^{J}e^V_nj) +C
+\end{equation}
+
+Consumer surplus is used primarily to compare the situation before and after the transport investment \citep{logsum}. The benefits of the transport investment are the difference of the expected consumer surplus $E(CS_n)$ before and after the investment. \\
+
+I'll mainly use the logsum as a logit choice probability indicator. This means that the expected utility of mode and destination choices are the most interesting for accessibility measures. In the data section I'll elaborate some more on how the logsum is used in this particular case. \\
+
+As was stated earlier the RoH can be used in project evaluation, but it has a couple of major simplifications, this means that the RoH only applies to small cost changes and in cases where the demand curve is nearly a straight line. The simplifications mean that at best the RoH can be considered as a rough approximation of the real welfare changes. The real changes can be calculated more precisely by deriving them from the transport models, as in the logsum approach \citep{logsum}. \\
+
+The paper by \citep{logsum} has a short overview on the theoretical  literature concerning logsum-approach. First the theoretical framework is constructed through Random Utility Model (RUM), this means that in the model there is no room for taste variation and income effect \citep{logsum}. \\
+
+In these models the overall utility (welfare function) can be expressed as a log of the sum of the exponentiated utilities of the alternatives \citep{logsum}. This kind of approach is also followed in this thesis to find out the different utilities by mode and destination. 
+
+\subsection{Data}
+	
+The accessibility data is provided by HSL, the data has been collected by HSL (Helsingin Seudun Liikenne) using travel demand modelling system (EMME). The modelling system has generated travel times and travel resistance between areas and regions, which then can be applied to the case of labour accessibility. The data would then be used to estimate the logsum of utility of individuals like in the research conducted by \cite[p.~387]{geurs}. From the methods section there should be some information about the different effects on accessibility in other countries, which could then be applied to the case of Helsinki region.\\
+
+The analysis of the data follows the guidelines that have been established by HSL in their research of Helsinki region transport choice models and estimation. These are called HESY ("Updating and testing of Helsinki region disaggregate choice models") \citep{hesy} and HELMET ("Traffic Forecast Models for the Helsinki Region Commuting Area 2010") \citep{helmet}. Firstly I will introduce the choice model side of the data and how the data has been analysed in the case of Helsinki region by HSL. Secondly, I go through the traffic forecasting and estimation side in the Helsinki region. In the last subsection I will make an effort to tie these together and continue to my part of the data analysis.  \\
+
+\subsubsection{Choice models}
+
+In the previous chapter I introduced the logsum, which is a logit choice model. Logsum is widely used in transport infrastructure evaluation. In this research \citep{hesy}

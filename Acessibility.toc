@@ -1,0 +1,16 @@
+\select@language {english}
+\contentsline {section}{\numberline {1}Introduction}{1}{section.1}
+\contentsline {section}{\numberline {2}Literature and contribution}{4}{section.2}
+\contentsline {subsection}{\numberline {2.1}Urban economics models}{4}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Wider economic impacts}{8}{subsection.2.2}
+\contentsline {subsubsection}{\numberline {2.2.1}Labour market impacts}{9}{subsubsection.2.2.1}
+\contentsline {subsection}{\numberline {2.3}Empirical literature concerning labour supply}{10}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.4}Transport investment cost-benefit analysis}{12}{subsection.2.4}
+\contentsline {subsection}{\numberline {2.5}Measurement of wider economic impacts}{17}{subsection.2.5}
+\contentsline {section}{\numberline {3}Methods and Data}{19}{section.3}
+\contentsline {subsection}{\numberline {3.1}Different methods used in project evaluation}{19}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Consumer surplus, logsum and project evaluation}{20}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Data}{23}{subsection.3.3}
+\contentsline {subsubsection}{\numberline {3.3.1}Choice models}{24}{subsubsection.3.3.1}
+\contentsline {section}{\numberline {4}Expected results}{25}{section.4}
+\contentsline {section}{References}{26}{section.4}

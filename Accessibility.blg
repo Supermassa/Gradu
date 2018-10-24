@@ -1,0 +1,68 @@
+This is BibTeX, Version 0.99d (TeX Live 2017)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: Accessibility.aux
+A level-1 auxiliary file: Literature.aux
+A level-1 auxiliary file: Methods.aux
+A level-1 auxiliary file: Results.aux
+The style file: apacite.bst
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=20001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: bib.bib
+apacite.bst [2013/07/21 v6.03 APA bibliography style]
+Warning--`others' not consistent with 6th ed. of the APA Manual
+Warning--`others' not consistent with 6th ed. of the APA Manual
+Warning--No address in andersson
+Warning--No journal in evers
+Warning--No address in goebel
+Warning--`others' not consistent with 6th ed. of the APA Manual
+Warning--No journal in muth
+Warning--`others' not consistent with 6th ed. of the APA Manual
+You've used 23 entries,
+            6951 wiz_defined-function locations,
+            1404 strings with 14240 characters,
+and the built_in function-call counts, 41405 in all, are:
+= -- 5080
+> -- 335
+< -- 2008
++ -- 2002
+- -- 56
+* -- 2659
+:= -- 7748
+add.period$ -- 92
+call.type$ -- 23
+change.case$ -- 391
+chr.to.int$ -- 0
+cite$ -- 50
+duplicate$ -- 1046
+empty$ -- 1654
+format.name$ -- 546
+if$ -- 7862
+int.to.chr$ -- 0
+int.to.str$ -- 69
+missing$ -- 0
+newline$ -- 561
+num.names$ -- 184
+pop$ -- 728
+preamble$ -- 1
+purify$ -- 92
+quote$ -- 0
+skip$ -- 2661
+stack$ -- 0
+substring$ -- 2165
+swap$ -- 618
+text.length$ -- 56
+text.prefix$ -- 0
+top$ -- 1
+type$ -- 1840
+warning$ -- 8
+while$ -- 183
+width$ -- 0
+write$ -- 686
+(There were 8 warnings)

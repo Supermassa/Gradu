@@ -1,0 +1,101 @@
+\documentclass[11pt, oneside]{article}   	% use "amsart" instead of "article" for AMSLaTeX format
+\usepackage{setspace}
+\usepackage{geometry}                		% See geometry.pdf to learn the layout options. There are lots.
+\geometry{letterpaper}                   		% ... or a4paper or a5paper or ... 
+%\geometry{landscape}                		% Activate for rotated page geometry
+%\usepackage[parfill]{parskip}    		% Activate to begin paragraphs with an empty line rather than an indent
+\usepackage{amsmath}
+\usepackage{graphicx}	
+\usepackage{fancyhdr}			% Use pdf, png, jpg, or epsÂ§ with pdflatex; use eps in DVI mode
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\renewcommand{\baselinestretch}{1.5}
+\renewcommand{\headrulewidth}{2pt}
+							% TeX will automatically convert eps --> pdf in pdflatex		
+\usepackage{amssymb}
+
+%SetFonts
+
+%SetFonts
+
+
+\title{Accessibility of labour}
+%\date{}							% Activate to display a given date or no date
+
+\begin{document}
+\maketitle
+
+\tableofcontents
+\newpage
+%\section{}
+%\subsection{}
+
+\section{Introduction}
+
+\vspace{5 mm}
+
+The aim of the thesis is to how an investment on transport affects different aspects of accessibility and economic activity. After the literature review, in the second chapter the aim is to find some sort of efficient distance function. The literature review comprises of different direct and indirect impacts a transport investment has, as well as how the transport investment affect labour supply and what are the different alternatives how we could measure these changes in the economic activity. 
+
+\vspace{5 mm}
+
+\section{Research question} 
+
+\vspace{5 mm}
+
+The research question is to find the different direct and indirect impacts of the transport investment. This is done through literature review. After the literature review, there should be an effort to make an estimation of distance function as described in the methods and data section. The estimation of the distance function needs some more in depth review from the literature.
+
+Direct ones are quantitative and rather easy to measure. Those ones contain time savings of the improved transport, more efficient mobility and the enhancing effect of the improved transport to productivity. These direct impacts mean that the area where workers might live gets bigger and all in all it means that the labour force is bigger (Laakso et al., 2016). 
+
+Indirect impacts are characterized as wider economic impacts or externalities based impacts. The indirect impacts are a little harder to measure, but usually the effects should be emphasized a little more in the decision making of transport economics. These impacts are agglomeration benefits and the imperfection of the markets, this imperfection allows for the wider economic impacts to emerge (Laakso et al., 2016). 
+
+The efficient distance function could come from spatial regression models or from some sort of logsum-model for labour and labour supply. The spatial regressions would be made in a way that the dependent variable would be accessibility and then a handful of explanatory variables (for example, travel time, productivity and so on). The logsum-model would have the form that is described by the equations below. Mainly the last equation that tells the monetary value of accessibility of a particular zone for different type of people and income groups.
+
+\begin{equation}
+l_{piz} = log(\sum_j exp(\mu_p V_{pjiz}))
+\parbox{25 em}{ In the equation $\mu_p$ is the logsum coefficient for travel purpose p. 
+V the representative utility, which in a simplified mode can be determined as stated below (Geurs et. al., 2010).}
+\end{equation}
+
+\begin{equation}
+V_{zijp} = \beta_p T_{zj} + \chi_{ph} ln(C_{zj} + \delta_p D_{pj} + ...
+\parbox{25 em}{ Where T is the travel time, C the travel cost and D a variable representing the attractiveness of the destination zone (Geurs et. al., 2010).}
+\end{equation}
+
+\begin{equation}
+CS_{piz}^L = VoT_{ph}  \frac{1}{\beta_p}  L_{piz}
+\parbox{25 em}{ First the logsums are translated into travel times by the time coefficients $\beta_p$ and next into costs by external values of time, VoT. This equation in total tells the monetary value of accessibility of zone z for a person of type i belonging to household income group h (Geurs et. al., 2010).}
+\end{equation}
+
+\vspace{5 mm}
+
+\section{Methods and Data}
+
+\vspace{5 mm}
+
+The methods include a couple of different variations about how the research question should be addressed. One method would be the effective density measurement, which measures the commute by generalizing the different travel time costs (Venables, 2007). Other method is the transport output elasticity, where there is a production function that has different variables then from this function we take logarithms to get the transport output elasticity by partial derivatives (Melo et al., 2013). Also the evaluating of the data could be done in a rule of half (RoH) principle, this evaluates the change in user benefits as the sum of the full benefit to original travellers and half the benefit obtained by new travellers (Geurs et al., 2010). The rule of half principle is used more when we measure the consumer surplus, so it is not the best measurement to use, when we want to model wider economic impacts. In the measurement of wider economic impacts the logsum approach might be better from Geurs et al. paper. The logsum is defined as the intergral with respect to the utility of an alternative. It provides exact measure of transport benefits, assuming the marginal value of money is constant (Geurs et al., 2010). After a more through review of these methods, we know which of the methods can be applied to Finland to find the effective distance function.
+	
+The data section is still a question that needs to be answered. The best possibility is that HSL (Helsingin Seudun Liikenne) will provide the accessibility data to analyse and make spatial regressions about. From the methods section there should be some information about the different effects for accessibility on other countries, which could then be applied to the case of Finland and Helsinki.
+
+\vspace{5 mm}
+
+\section{Expected results}
+
+\vspace{5 mm}
+
+After the analysis of the data we would have some sort of efficient distance function for the Finnish data. This distance function then could be used in different projects. As Laakso et al. say in their report to Finnish transport agency that especially the wider economic impacts are hard to take into consideration in the transport investments ( Laakso et al., 2016). That is why an estimation of the distance function and a literature review on the accessibility of labour would have an impact on the way transport investments effects are measured in the future.
+
+\vspace{5 mm}
+
+References
+\vspace{5 mm}
+
+Geurs, K., Zondag, B., de Jong, G., de Bok, M. Accessibility appraisal of land-use/transport policy strategies: More than just adding up travel-time savings. Transportation research part D, 2010, p. 382-393.
+
+Laakso, S., Koistinen, E., Metsäranta, H. Liikennehankkeiden laajemmat taloudelliset
+vaikutukset - Esiselvitys, Liikenneviraston tutkimukisa ja selvityksiä. 38/2016.
+
+Melo, P. C., Graham, D. J., Brage-Ardao, R. The productivity of transport infrastructure investment: A meta-analysis of empirical evidence. Regional science and urban economics, volume 43, 2013, p. 695-706.
+
+\vspace{5 mm}
+
+\end{document}  

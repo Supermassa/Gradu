@@ -1,0 +1,2 @@
+# Gradu
+Gradun eri versiot
